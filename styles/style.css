@@ -93,6 +93,28 @@ header .navbar {
   animation: roll-in-right 0.6s ease-out both;
 }
 
+.aboutus {
+  display: flex;
+  width: 900px;
+  height: 430px;
+  margin-bottom: 40px;
+}
+.aboutus .abt {
+  display: flex;
+  width: 0px;
+  flex-grow: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+.aboutus .abt:hover {
+  cursor: cell;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
 a {
   text-decoration: none;
 }
