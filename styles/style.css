@@ -115,6 +115,10 @@ header .navbar {
   filter: contrast(120%);
 }
 
+.abtu {
+  font-size: 20px;
+}
+
 a {
   text-decoration: none;
 }
@@ -240,13 +244,21 @@ a {
     height: 70vh;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 574px) {
   .w-100 {
-    height: 50vh;
+    height: 40vh;
+  }
+  .aboutus {
+    width: 400px;
+    height: 200px;
   }
 }
 @media screen and (max-width: 480px) {
   .w-100 {
     height: 35vh;
   }
-}
+  .aboutus {
+    width: 400px;
+    height: 200px;
+  }
+}/*# sourceMappingURL=style.css.map */
